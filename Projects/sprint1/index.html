@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/mine.css" />
+</head>
+
+<body class="body" onload="beginnerMode()">
+
+    <h1>Mine Sweeper</h1>
+    <!-- <hr class="sep"> -->
+    <button class="smile" onclick="init()">😀</button>
+    <button class='beginner button' onclick="beginnerMode()">Beginner</button>
+    <button class='medium button' onclick="mediumMode()">Medium</button>
+    <button class='expert button' onclick="expertMode()">Expert</button>
+    <div class="timer">⌛ 0</div>
+    <div class="lives"> 3 LIVES LEFT</div>
+    <table class="table" oncontextmenu="return false;" border="1" cellpadding="10">
+
+        <tbody class="board">
+            <div class="win">  
+           <img src="img/200.webp">
+            </div>
+            <div class="lose">
+                <img src="img/200w.webp">
+            </div>
+        </tbody>
+
+    </table>
+    <button class='safe' onclick="safeClick()">Safe Click</button>
+    <div class="clicks"> 3 clicks available </div>
+    <script src="js/util.js"></script>
+    <script src="js/mines.js"></script>
+</body>
+
+</html>

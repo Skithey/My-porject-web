@@ -1,0 +1,21 @@
+
+
+
+.table{
+    border: 2px solid black;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #fff;
+}
+
+th {
+    padding: 20px;
+    border: 2px solid black;
+
+}
